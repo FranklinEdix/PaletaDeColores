@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+
+/*cuando recibimos el codigo decimal nos debolvera tanto en mayuscula como en minuscula*/
+
+.visualizador {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35;
+    width: 13em;
+    /*para crear el cuadrado de alto*/
+    height: 13em;
+    /*para crear el cuadrado de ancho*/
+    border: 2px solid #000;
+    /*color de borde*/
+    position: absolute;
+    top: 50%;
+    /*altura*/
+    left: 50%;
+    /*izquierda*/
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+#color {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
